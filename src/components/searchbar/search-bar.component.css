@@ -1,0 +1,66 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.8%;
+}
+input {
+  margin-top: 0;
+  height: 7vh;
+  width: 60vw;
+  border-radius: 15px 0px 0px 15px;
+  border-color: transparent;
+  font-family: "Rubik";
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+  font-size: 0.8em;
+}
+.Arrow {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border: 1px solid black;
+  margin-left: -17%;
+  border-radius: 0px 7px 7px 0px;
+  z-index: 1;
+  margin-top: 20%;
+  margin-bottom: -49%;
+}
+.submit {
+  height: 7.9vh;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+  .search {
+    transform: translateY(-9%);
+    width: 100vw;
+    margin: 0;
+  }
+  input {
+    width: 30vw;
+    height: 8vh;
+    font-size: 1.3em;
+  }
+  .submit {
+    height: 8.5vh;
+  }
+  .Arrow {
+    margin-top: 0;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+}

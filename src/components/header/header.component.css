@@ -1,0 +1,38 @@
+.header {
+  color: white;
+  width: 100vw;
+  height: 60vh;
+  background-image: url("pattern-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  font-family: "Rubik";
+  font-weight: 300;
+  display: block;
+  position: absolute;
+}
+.header h1 {
+  margin-top: 0;
+  padding-top: 7%;
+}
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+  .header h1 {
+    padding: 2%;
+  }
+  header {
+    height: 30vh;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+}
